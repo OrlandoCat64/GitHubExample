@@ -23,6 +23,8 @@ namespace PL
             result2 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Resultado es igual a " + (result1 - result2));
+
+            Console.WriteLine("Prueba de usuarios");
         }
     }
 }
