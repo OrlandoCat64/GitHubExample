@@ -13,7 +13,13 @@ namespace PL
 
             Console.WriteLine("Calamardo es el mejor amiko en el mundo ");
             Console.WriteLine("Si lees esto es el branch01");
+
+            int macaco = 23;
+            int chango = 12;
+            int  resultado = macaco + chango;
+                Console.WriteLine (resultado);
             
+
             
         }
     }
