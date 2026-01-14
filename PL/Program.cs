@@ -16,11 +16,21 @@ namespace PL
 
             int macaco = 23;
             int chango = 12;
-            int  resultado = macaco + chango;
-                Console.WriteLine (resultado);
-            
+            int resultado = macaco + chango;
+            Console.WriteLine(resultado);
 
-            
+
+            int result1 = 0;
+            int result2 = 0;
+
+            Console.WriteLine("Bienvenido a la calculadora que solo suma");
+            Console.WriteLine("Ingresa el primer número");
+            result1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Ingresa el segundo número");
+            result2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Resultado es igual a " + (result1 + result2));
         }
     }
 }
